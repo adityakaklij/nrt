@@ -14,6 +14,10 @@ pub fn get_filedetails_with_flag(path_:String, mut flag: String, new_file_name_:
     if flag_ == "size" || flag_ == "s"{
         let len_in_bytes = metadata.len();
         println!("{:?} bytes", len_in_bytes); // Size in bytes
+        println!("{:?} MB", len_in_bytes as f64/(1_000_000) as f64); // Size in MB
+        if len_in_bytes > 1_00_000_000 {
+            println!("{:?} GB", len_in_bytes as f64/(1_000_000_000) as f64); // Size in GB
+        }
     }
     
     else if flag_ == "mt" {

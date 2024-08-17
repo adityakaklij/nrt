@@ -3,10 +3,10 @@ name = "nrt"
 version = "0.0.1"
 edition = "2021"
 authors = ["Aditya K"]
-description = "cat clone rust implementation."
+description = "nrt is a Rust-based command-line tool that replicates and extends the functionality of the Unix cat command."
 readme = "README.md"
 license = "GPL-3.0"
-repository = ""
+repository = "https://github.com/adityakaklij/nrt"
 
 [dependencies]
 colored = "2.0.0"
