@@ -1,9 +1,13 @@
 
 use colored::*;
 use std::{fs::metadata, os::unix::fs::MetadataExt};
+
+// #[cfg(windows)]
+// use std::{fs::metadata, os::windows::fs::MetadataExt};
 mod utils;
 mod helper;
 use chrono::{DateTime, Utc};
+
 
 pub fn get_filedetails_with_flag(path_:String, mut flag: String, new_file_name_: String) -> std::io::Result<()> {
 

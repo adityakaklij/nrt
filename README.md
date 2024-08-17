@@ -1,7 +1,13 @@
-# `nrt` - A Rust-Based Clone of the `cat` Command
+# `nrt` - The Rust-Powered Reinvention of the Classic `cat` Command
 
-`nrt` is a lightweight and efficient command-line utility built in Rust, designed to replicate and extend the functionality of the classic Unix `cat` command.
-Whether you need to quickly view file contents, inspect file metadata, or perform basic file operations, `nrt` provides a versatile toolset.
+
+`nrt` is a lightweight and efficient command-line utility built in Rust, designed to replicate and extend the functionality of the classic Unix `cat` command. 
+
+While `nrt` allows you to quickly view file contents and inspect file metadata like the original `cat`, it goes beyond with powerful additional features:
+
+**Rename Files:** Seamlessly rename files directly from the command line.
+**Show File/Folder Size:** Instantly display the size of files and directories, offering insights that `cat` can't provide.
+
 
 ## Features
 
@@ -21,15 +27,22 @@ Whether you need to quickly view file contents, inspect file metadata, or perfor
 
 Get the latest version of nrt:
 
+### For Apple Silicon
+
 ```sh
-# For Apple Silicon
 curl -L -o nrt https://github.com/adityakaklij/nrt/releases/download/v0.1.1_Linux/nrt && chmod +x nrt && sudo mv nrt /usr/local/bin/
+```
 
-# For Linux
+### For Linux
+
+```sh
 curl -L -o nrt https://github.com/adityakaklij/nrt/releases/download/v0.1.0-Linux/nrt && chmod +x nrt && sudo mv nrt /usr/local/bin/
+```
 
-# Using Windows
+### For Windows
 
+```sh
+curl -L -o nrt.exe https://github.com/adityakaklij/nrt/releases/download/v0.1.0-Windows/nrt.exe && move nrt.exe C:\Windows\System32\
 ```
 
 
