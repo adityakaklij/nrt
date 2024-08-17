@@ -1,0 +1,14 @@
+[package]
+name = "nrt"
+version = "0.0.1"
+edition = "2021"
+authors = ["Aditya K"]
+description = "cat clone rust implementation."
+readme = "README.md"
+license = "GPL-3.0"
+repository = ""
+
+[dependencies]
+colored = "2.0.0"
+chrono = "0.4"
+arboard = "2.0"
