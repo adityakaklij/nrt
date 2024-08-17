@@ -22,12 +22,13 @@ Whether you need to quickly view file contents, inspect file metadata, or perfor
 Get the latest version of nrt:
 
 ```sh
-# Using curl
-curl -L -o nrt https://github.com/adityakaklij/nrt/releases/download/v0.1.0/nrt && chmod +x nrt && sudo mv nrt /usr/local/bin/
+# For Apple Silicon
+curl -L -o nrt https://github.com/adityakaklij/nrt/releases/download/v0.1.1_Linux/nrt && chmod +x nrt && sudo mv nrt /usr/local/bin/
 
-# Using apt
+# For Linux
+curl -L -o nrt https://github.com/adityakaklij/nrt/releases/download/v0.1.0-Linux/nrt && chmod +x nrt && sudo mv nrt /usr/local/bin/
 
-# Using brew
+# Using Windows
 
 ```
 
