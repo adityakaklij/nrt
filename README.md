@@ -19,32 +19,46 @@ Whether you need to quickly view file contents, inspect file metadata, or perfor
 
 ## Installation
 
-To install `nrt`, use `cargo`, Rust's package manager:
+Get the latest version of nrt:
 
 ```sh
-cargo install nrt
+# Using curl
+curl -L -o nrt https://github.com/adityakaklij/nrt/releases/download/v0.1.0/nrt && chmod +x nrt && sudo mv nrt /usr/local/bin/
+
+# Using apt
+
+# Using brew
 
 ```
+
 
 ## Usage
 
-`nrt` is easy to use with a variety of options to suit your needs. The general syntax is:
+`nrt` is easy to use with a variety of options to suit your needs. 
+The general syntax is:
 
 ```sh
 nrt <filename> [OPTION]
-
-# Options
-    --size: Show the size of the file in bytes.
-    --mt: Display the last modified time of the file in UTC.
-    --ct: Display the creation time of the file in UTC.
-    --mode: Show the file's mode (permissions) in numeric form.
-    --lc: Count and display the number of lines in the file.
-    --n: Print all non-empty lines with their line numbers.
-    --cp: Copy the entire content of the file.
-    --rn <new_filename>: Rename the file to a new specified filename.
-    --help: Display a help message with usage instructions.
 ```
 
+### Options
+
+| Option               | Description                                               |
+|----------------------|-----------------------------------------------------------|
+| `--size`             | Show the size of the file in bytes.                        |
+| `--mt`               | Display the last modified time of the file in UTC.         |
+| `--ct`               | Display the creation time of the file in UTC.              |
+| `--mode`             | Show the file's mode (permissions) in numeric form.        |
+| `--lc`               | Count and display the number of lines in the file.         |
+| `--n`                | Print all non-empty lines with their line numbers.         |
+| `--cp`               | Copy the entire content of the file.                       |
+| `--rn <new_filename>`| Rename the file to a new specified filename.               |
+| `--v`             | Latest version.                                               |
+| `--help`             | Display a help message with usage instructions.            |
+
+
+
+<br>
 <hr>
 
 ## Contributing

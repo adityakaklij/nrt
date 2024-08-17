@@ -1,0 +1,11 @@
+Source: nrt
+Section: utils
+Maintainer: Aditya Kaklij adityakaklij11@gmail.com
+Build-Depends: debhelper-compat (= 12), cargo
+Standards-Version: 0.1.0
+Homepage: https://github.com/adityakaklij/nrt
+
+Package: nrt
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description:nrt is a Rust-based command-line tool that replicates and extends the functionality of the Unix cat command.
